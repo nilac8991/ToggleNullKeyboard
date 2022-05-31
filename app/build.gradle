@@ -7,11 +7,11 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.zebra.jamesswinton.togglenullkeyboard"
+        applicationId "com.zebra.jamesswinton.togglenullkeyboardenterprise"
         minSdkVersion 23
         targetSdkVersion 30
-        versionCode 2
-        versionName "1.1"
+        versionCode 102
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -35,7 +35,7 @@ android {
     }
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
-            outputFileName = new File("DefaultLauncherToggle (v" + variant.versionName + ").apk")
+            outputFileName = new File("ToggleNullKeyboardEnterprise (v" + variant.versionName + ").apk")
         }
     }
 }
@@ -43,7 +43,7 @@ android {
 dependencies {
 
     // EMDK
-    implementation 'com.symbol:emdk:7.6.10'
+    implementation 'com.symbol:emdk:9.1.1'
 
     // Google Libs
     implementation 'androidx.appcompat:appcompat:1.2.0'

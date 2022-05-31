@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.zebra.jamesswinton.toggledefaultlauncher",
+  "applicationId": "com.zebra.jamesswinton.togglenullkeyboardenterprise",
   "variantName": "processReleaseResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 2,
-      "versionName": "1.1",
-      "outputFile": "DefaultLauncherToggle (v1.1).apk"
+      "versionCode": 102,
+      "versionName": "1.2",
+      "outputFile": "DefaultLauncherToggle (v1.2).apk"
     }
   ]
 }
