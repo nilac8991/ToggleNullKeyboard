@@ -5,15 +5,17 @@ import android.app.Application;
 public class App extends Application {
 
     // Constants
-    public static final String DEFAULT_KEYBOARD_PROFILE_NAME = "GBoard";
+    public static final String DEFAULT_KEYBOARD_PROFILE_NAME = "WS50";
     public static final String DEFAULT_KEYBOARD_PROFILE_XML =
                     "<wap-provisioningdoc>\n" +
                     "  <characteristic type=\"Profile\">\n" +
-                    "    <parm name=\"ProfileName\" value=\"GBoard\"/>\n" +
+                    "    <parm name=\"ProfileName\" value=\"WS50\"/>\n" +
                     "    <characteristic version=\"10.1\" type=\"UiMgr\">\n"
                   + "      <parm name=\"InputMethodAction\" value=\"1\" />\n"
                   + "      <characteristic type=\"InputMethodDetails\">\n"
-                  + "        <parm name=\"InputMethodOption\" value=\"1\" />\n"
+                  + "        <parm name=\"InputMethodOption\" value=\"4\" />\n"
+                  + "        <parm name=\"InputMethodPackageName\" value=\"com.zebra.scrollime\" />\n"
+                  + "        <parm name=\"InputMethodClassName\" value=\"com.zebra.scrollime.SoftKeyboard\" />\n"
                   + "      </characteristic>\n"
                   + "    </characteristic>\n" +
                     "  </characteristic>" +
